@@ -4,7 +4,7 @@
   background-color: var(--color2);
   color: white;
   font-family: 'DM Serif Display';
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .navbar-inner-container {
@@ -15,7 +15,7 @@
 .navbar-sitename{
     display: flex;
     align-items: flex-end;
-    font-size: 45px;
+    font-size: 60px;
     font-family: 'Cedarville Cursive', cursive;
     font-weight: 800;
 }
@@ -43,5 +43,5 @@ li{
 }
 
 li:hover{
-  color: var(--color10)
+  color: var(--color5)
 }

@@ -1,15 +1,25 @@
 .skills-container{
     text-align: center;
     background-image: url("/public/img/education-bg.png");
-    background-size: 1900px 1200px;
+    background-size: 2500px 1200px;
+    letter-spacing: 1px;
 }
 
-
-.ul{
-    display: flex;
-    justify-content: center;
+.skills-title{
+    font-size: 60px;
 }
 
-li{
-    list-style: none;
-}
+.skills-name {
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-right: 10px;
+    padding: 0.25rem 0.9rem;
+    background-color: rgb(238, 238, 238);
+    border-radius: 0.25rem;
+    font-size: 1.5rem;
+  }
+
+.skills-name:hover {
+    background-color: var(--color2);
+    color: var(--white-color);
+  }

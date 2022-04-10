@@ -1,9 +1,20 @@
-.projects-container {
-  padding: 10rem;
-  background-image: url('/public/img/bg-dots.png');
+.projects-container{
+    background-image: url('/public/img/bg-dots.png');
+   text-align: center;
+}
+
+.project-title{
+    margin-top: 0;
+    padding-top: 2rem;
+    font-size: 60px;
+}
+
+.projects{
+  padding: 1rem;
   letter-spacing: 1px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .project-img {
@@ -43,6 +54,7 @@
   font-size: 30px;
 }
 
-.project-title {
+.project-subtitle {
   text-align: center;
+  font-size: 35px;
 }

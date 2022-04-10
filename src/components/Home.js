@@ -6,8 +6,8 @@ function Home() {
     <section className='home-container'>
       <div className='home'>
       <div className='home-text'>
-      <h4>Hi! <span> I’m May </span>
-      <br/>Full Stack 
+      <h4>Hi! <span> I’m May </span> & 
+      <br/>I'm a Full Stack 
       <br/> Software Engineer
       <br/>
       <i class="bi bi-github"></i>

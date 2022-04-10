@@ -1,0 +1,6 @@
+.home-container{
+    display: flex;
+    padding: 8rem;
+    justify-content: space-between;
+    border: red 1px solid;
+}

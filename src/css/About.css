@@ -1,0 +1,11 @@
+.about-container{
+    display: flex;
+    padding: 8rem;
+    align-content: center;
+    justify-content: center;
+    border: red 1px solid;
+}
+
+.about-text{
+    width: 800px;
+}

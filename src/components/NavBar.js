@@ -6,14 +6,14 @@ function NavBar() {
     <nav className='navbar-container'>
       <div className='navbar-inner-container'>
         <div className='navbar-sitename'>
-          <a>May Wu</a>
+          <a>May W.</a>
         </div>
 
         <ul className='navbar-ul'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>PORTFOLIO</li>
+          <li>CONTACT</li>
         </ul>
       </div>
     </nav>

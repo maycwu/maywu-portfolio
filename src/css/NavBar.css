@@ -1,7 +1,11 @@
 .navbar-container {
-  border: red 1px solid;
-  padding: 40px 115px;
+  padding: 35px 115px;
   transition: 0.3s ease;
+  background-color: var(--color2);
+  color: white;
+  font-family: 'DM Serif Display';
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .navbar-inner-container {
@@ -12,6 +16,9 @@
 .navbar-sitename{
     display: flex;
     align-items: flex-end;
+    font-size: 45px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 800;
 }
 
 .navbar-ul {
@@ -30,4 +37,12 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+}
+li{
+  letter-spacing: 1.6px;
+  padding: 0.5rem;
+}
+
+li:hover{
+  color: var(--color10)
 }

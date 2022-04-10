@@ -1,5 +1,5 @@
 .portfolio-container{
     text-align: center;
-    padding: 8rem;
-    border: red 1px solid;
+    padding: 4rem;
+    background-image: url('/public/img/bg-dots.png');
 }

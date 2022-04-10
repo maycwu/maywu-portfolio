@@ -1,22 +1,21 @@
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Serif+Display&family=Merriweather&display=swap');:root{
   --background-color: white;
   --color1: #f0f7ee;
-  --color2: #c4d7f2;
+  --color2: #bacde8;
   --color3: #afdedc;
   --color4: #91a8a4; 
   --color5: #776871;
-  --color6: #7d5ba6;
+  --color6: #4a25a7;
   --color7: #acadbc;
+  --color8: #000500;
+  --color9: #297f9a;
+  --color10: #f4791a;
 }
 
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'DM Serif Display';
   background-color: var(--background-color);
 
 }

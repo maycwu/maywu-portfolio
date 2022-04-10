@@ -12,7 +12,7 @@ function NavBar() {
         <ul className='navbar-ul'>
           <li>home</li>
           <li>about</li>
-          <li>portfolio</li>
+          <li>projects</li>
           <li>contact</li>
         </ul>
       </div>

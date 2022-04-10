@@ -9,15 +9,15 @@
   padding: 7rem;
   justify-content: space-evenly;
   background-image: url('/public/img/shapes4.png');
- 
-  background-position: 25% -20%;
+  background-position: 25% 0%;
   background-size: contain;
-  background-size: 1000px;
+  background-size: 860px;
   background-repeat: no-repeat;
+  height: 70vh;
 }
 
 .home-text {
-  margin-top: 4rem;
+  margin-top: 1rem;
   text-align: left;
   font-size: 4rem;
   letter-spacing: 1px;
@@ -27,7 +27,8 @@
 i {
   font-size: 26px;
   color: var(--color1);
-  padding: 1rem;
+  padding: 4rem;
+  text-shadow: 2px 2px rgb(203, 203, 203);
 }
 
 span {

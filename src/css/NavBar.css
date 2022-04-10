@@ -4,8 +4,7 @@
   background-color: var(--color2);
   color: white;
   font-family: 'DM Serif Display';
-  font-size: 20px;
-  letter-spacing: 1px;
+  font-size: 30px;
 }
 
 .navbar-inner-container {
@@ -39,7 +38,7 @@ ul {
   padding-inline-start: 40px;
 }
 li{
-  letter-spacing: 1.6px;
+  letter-spacing: 2px;
   padding: 0.5rem;
 }
 

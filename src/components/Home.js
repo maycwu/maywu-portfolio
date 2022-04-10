@@ -5,13 +5,18 @@ function Home() {
   return (
     <section className='home-container'>
       <div className='home'>
-      <div className='home-text'>Hi! <span> I’m May </span>
+      <div className='home-text'>
+      <h4>Hi! <span> I’m May </span>
       <br/>Full Stack 
       <br/> Software Engineer
       <br/>
       <i class="bi bi-github"></i>
-      <i class="bi bi-linkedin"></i>
-      <i class="bi bi-file-earmark-person"></i>
+ <i class="bi bi-linkedin"></i>
+ <i class="bi bi-file-earmark-person"></i>
+      </h4>
+     
+     
+     
       </div>
     
       <div className="home-image">

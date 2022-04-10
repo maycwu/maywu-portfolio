@@ -2,6 +2,9 @@ import '../css/App.css';
 import NavBar from './NavBar';
 import Home from './Home';
 import About from './About';
+import Skills from './Skills';
+import Portfolio from './Portfolio';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -9,6 +12,9 @@ function App() {
         <NavBar/>
         <Home/>
         <About/> 
+        <Skills/>
+        <Portfolio/>
+        <Footer/>
     </div>
   );
 }

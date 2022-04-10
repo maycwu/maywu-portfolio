@@ -1,6 +1,14 @@
-.home-container{
-    display: flex;
+.skills-container{
+    text-align: center;
     padding: 8rem;
-    justify-content: space-between;
     border: red 1px solid;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
 }

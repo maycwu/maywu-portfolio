@@ -2,20 +2,22 @@
     background-color: var(--color2);
     background-image: url('/public/img/icons.png');
     color: white;
-    height: 100vh;
 }
 
 .home{
   display: flex;
   padding: 7rem;
   justify-content: space-evenly;
-  background-image: url('/public/img/leaf.png');
-  background-size: 2100px 750px;
+  background-image: url('/public/img/shapes4.png');
+ 
+  background-position: 25% -20%;
+  background-size: contain;
+  background-size: 1000px;
   background-repeat: no-repeat;
 }
 
 .home-text {
-  margin-top: 3rem;
+  margin-top: 4rem;
   text-align: left;
   font-size: 4rem;
   letter-spacing: 1px;
@@ -29,5 +31,5 @@ i {
 }
 
 span {
-    color: var(--color10);
+    color: var(--color3);
 }

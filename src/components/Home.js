@@ -7,7 +7,7 @@ function Home() {
       <div className='home'>
       <div className='home-text'>Hi! <span> I’m May </span>
       <br/>Full Stack 
-      <br/>Software Engineer
+      <br/> Software Engineer
       <br/>
       <i class="bi bi-github"></i>
       <i class="bi bi-linkedin"></i>

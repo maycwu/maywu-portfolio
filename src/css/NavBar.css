@@ -1,10 +1,15 @@
 .navbar-container {
-  padding: 35px 115px;
+  padding: 8px 115px;
   transition: 0.3s ease;
   background-color: var(--color2);
   color: white;
   font-family: 'DM Serif Display';
   font-size: 34px;
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
 .navbar-inner-container {

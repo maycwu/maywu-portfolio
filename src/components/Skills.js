@@ -21,26 +21,12 @@ function Skills() {
             alt='PostgreSQL'
             className='skill-icon'
           />
-            <img src='/img/icons/node.png' alt='Node.js' className='skill-icon' />
-  <img
-    src='/img/icons/express.png'
-    alt='Express.js'
-    className='skill-icon'
-  />
-
-          {/* <span className="skills-name">HTML</span> */}
-          {/* <span className="skills-name">CSS</span> */}
-          {/* <span className="skills-name">Javascript</span> */}
-          {/* <span className="skills-name">React</span> */}
-          {/* <span className="skills-name">Redux</span> */}
-          {/* <span className="skills-name">Express.js</span> */}
-          {/* <span className="skills-name">Node.js</span> */}
-          {/* <span className="skills-name">Axios</span> */}
-          {/* <span className="skills-name">RESTful APIs</span> */}
-          {/* <span className="skills-name">Git</span> */}
-          {/* <span className="skills-name">Bootstrap</span> */}
-          {/* <h2 className="skills-subtitle">Database</h2> */}
-          {/* <span className="skills-name">PostgreSQL</span> */}
+          <img src='/img/icons/node.png' alt='Node.js' className='skill-icon' />
+          <img
+            src='/img/icons/express.png'
+            alt='Express.js'
+            className='skill-icon'
+          />
         </div>
         <h2 className='skills-subtitle'>Tools</h2>
         <div className='skills-img-container'>

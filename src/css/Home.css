@@ -2,6 +2,7 @@
     background-color: var(--color2);
     background-image: url('/public/img/icons.png');
     color: white;
+    margin-top: 5%;
 }
 
 .home{
@@ -9,11 +10,11 @@
   padding: 7rem;
   justify-content: space-evenly;
   background-image: url('/public/img/shapes4.png');
-  background-position: 25% 0%;
+  background-position: 26% 10%;
   background-size: contain;
   background-size: 860px;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 100vh;
 }
 
 .home-text {
@@ -22,6 +23,27 @@
   font-size: 4rem;
   letter-spacing: 1px;
   padding: 5rem;
+}
+
+.accessory1 {
+  position: absolute;
+  top: 1250px;
+  right: 1800px;
+  z-index: 1;
+}
+
+.accessory2 {
+  position: absolute;
+  top: 1450px;
+  right: 100px;
+  z-index: 1;
+}
+
+.accessory3 {
+  position: absolute;
+  top: 640px;
+  right: 510px;
+  z-index: 1;
 }
 
 i {

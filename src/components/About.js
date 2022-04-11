@@ -7,8 +7,9 @@ function About() {
       <div className='divider-container'>
         <img src='/img/dots-cyan.png' alt='dots' />
       </div>
-
+      <h1>About Me </h1>
       <div className='about'>
+
         <p className='about-text'>
           Welcome to my site! I am a Finance professional turned Software
           Engineer. While working in Finance, I found a passion in programming &

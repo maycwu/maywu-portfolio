@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/maywu-portfolio/static/css/main.92064b5d.css",
+    "main.js": "/maywu-portfolio/static/js/main.1464616d.js",
+    "static/media/bootstrap-icons.woff?": "/maywu-portfolio/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/bootstrap-icons.woff2?": "/maywu-portfolio/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "static/media/icons.png": "/maywu-portfolio/static/media/icons.1571fff246063bbbc7db.png",
+    "static/media/shapes4.png": "/maywu-portfolio/static/media/shapes4.5f871f1a055e15c33963.png",
+    "static/media/education-bg.png": "/maywu-portfolio/static/media/education-bg.270bde0f4d053894fedc.png",
+    "index.html": "/maywu-portfolio/index.html",
+    "main.92064b5d.css.map": "/maywu-portfolio/static/css/main.92064b5d.css.map",
+    "main.1464616d.js.map": "/maywu-portfolio/static/js/main.1464616d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92064b5d.css",
+    "static/js/main.1464616d.js"
+  ]
+}

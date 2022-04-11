@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/Projects.css';
-import { Container, Row, Col } from 'react-grid-system';
 
 function Projects() {
   return (

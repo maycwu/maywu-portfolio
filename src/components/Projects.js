@@ -45,6 +45,25 @@ function Projects() {
             </a>
           </div>
         </div>
+
+        <div className='project-img-container'>
+          <div className='project'>
+            <img
+              src='/img/spotify.png'
+              alt='portfolio'
+              className='project-img'
+            />
+          </div>
+          <h2 className='project-subtitle'>memory song game</h2>
+          <div className='project-link'>
+            <a
+              href='https://github.com/maycwu/memory-song-game/'
+              className='project-link-name'
+            >
+              View details
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );

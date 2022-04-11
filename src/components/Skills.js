@@ -14,12 +14,6 @@ function Skills() {
           />
           <img src='/img/icons/html.png' alt='HTML' className='skill-icon' />
           <img src='/img/icons/css.png' alt='CSS' className='skill-icon' />
-          <img src='/img/icons/node.png' alt='Node.js' className='skill-icon' />
-          <img
-            src='/img/icons/express.png'
-            alt='Express.js'
-            className='skill-icon'
-          />
           <img src='/img/icons/redux.png' alt='Redux' className='skill-icon' />
           <img src='/img/icons/react.png' alt='React' className='skill-icon' />
           <img
@@ -27,6 +21,12 @@ function Skills() {
             alt='PostgreSQL'
             className='skill-icon'
           />
+            <img src='/img/icons/node.png' alt='Node.js' className='skill-icon' />
+  <img
+    src='/img/icons/express.png'
+    alt='Express.js'
+    className='skill-icon'
+  />
 
           {/* <span className="skills-name">HTML</span> */}
           {/* <span className="skills-name">CSS</span> */}

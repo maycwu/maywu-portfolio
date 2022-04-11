@@ -1,6 +1,7 @@
 .footer-container{
     text-align: center;
-    padding: 3rem;
+    padding: 1rem;
     background-color: var(--color8);
     color: white;
+    font-size: 30px;
 }

@@ -9,7 +9,6 @@ function About() {
       </div>
       <h1>About Me </h1>
       <div className='about'>
-
         <p className='about-text'>
           Welcome to my site! I am a Finance professional turned Software
           Engineer. While working in Finance, I found a passion in programming &
@@ -17,6 +16,21 @@ function About() {
           Fullstack Academy to become a Software Engineer. I am excited to use
           my creative web development and coding skills to build applications
           with great user experiences.
+          <br />
+          <br/>
+          <a href='https://github.com/maycwu' title='GitHub'>
+            <i class='bi bi-github'></i>
+          </a>
+          <a href='https://www.linkedin.com/in/maywu95/' title='LinkedIn'>
+            <i class='bi bi-linkedin'></i>
+          </a>
+          <a
+            href='resume/resume.pdf'
+            download='resume.pdf'
+            title='Download Resume'
+          >
+            <i class='bi bi-file-earmark-person'></i>
+          </a>
         </p>
       </div>
       <div className='divider-container'>

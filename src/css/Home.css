@@ -2,57 +2,91 @@
   background-color: var(--color2);
   background-image: url('/public/img/icons.png');
   color: white;
-  height: 100vh;
+  margin-top: -100px;
 }
 
 .home {
   display: flex;
-  padding: 13rem;
-  justify-content: space-evenly;
+  padding: 8rem;
+  justify-content: space-between;
 }
 
 .home-text {
   margin: auto;
-  margin-top: 2rem;
-  text-align: left;
-  font-size: 3.5rem;
-  /* font-family: 'Rozha One', serif; */
-  letter-spacing: 3px;
-  padding: 4rem;
+  /* text-align: left; */
+  font-size: 3rem;
+  font-family: 'Rozha One', serif;
+  padding: 3.5rem;
   background-color: var(--color3);
   /* border: #878787 8px dotted; */
   /* border-radius: 30px; */
   border-radius: 50% 20% / 10% 40%;
 }
 
+.home-image {
+  display: flex;
+  justify-content: center;
+}
+
 .accessory1 {
-  position: absolute;
-  top: 850px;
-  right: 1600px;
+  position: relative;
+  top: 870px;
+  right: -5%;
   z-index: 1;
 }
 
 .accessory2 {
-  position: absolute;
-  top: 870px;
-  right: 100px;
+  position: relative;
+  top: 850px;
+  left: 75%;
   z-index: 1;
 }
 
 .accessory3 {
-  position: absolute;
+  position: relative;
   top: 580px;
-  right: 610px;
+  right: -1050px;
   z-index: 1;
-}
-
-i {
-  font-size: 26px;
-  color: var(--color1);
-  padding: 4rem;
-  /* text-shadow: 2px 2px rgb(203, 203, 203); */
 }
 
 span {
   color: var(--color9);
+}
+
+.computer-img {
+  width: 100%;
+}
+
+/* for medium sized screens */
+@media screen and (max-width: 1024px) {
+  .home {
+    padding: 4.5rem;
+  }
+  .computer-img {
+    width: 50%;
+  }
+
+  .home-text {
+    font-size: 1.4rem;
+    padding: 2rem;
+  }
+
+  i {
+    font-size: 10px;
+  }
+
+  .accessory1 {
+    top: 500px;
+  }
+
+  .accessory2 {
+    top: 480px;
+    left: 70%;
+  }
+
+  .accessory3 {
+    top: 310px;
+    right: -290px;
+    z-index: 1;
+  }
 }

@@ -49,3 +49,25 @@ li{
   
 }
 
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover{
+  color: var(--color10);
+  cursor:pointer;  
+}
+
+/* for medium sized screens */
+@media screen and (max-width: 1024px) {
+  .navbar-sitename {
+    font-size: 2rem;
+  }
+
+  .navbar-container{
+    font-size: 20px;
+    padding: 5px 70px;
+  }
+
+}

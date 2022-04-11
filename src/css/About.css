@@ -1,29 +1,50 @@
-.about-container{
-    padding: 3rem;
+.about-container {
+  padding: 3rem;
 }
 
-.about{
-    display: flex;
-    padding: 1rem;
-    align-content: center;
-    justify-content: center;
+.about {
+  display: flex;
+  padding: 1rem;
+  align-content: center;
+  justify-content: center;
 }
 
-.about-text{
-    text-align: center;
-    width: 800px;
-    font-size: 1.2rem;  
-    letter-spacing: 1px;
-    margin-top: 0px;
+.about-text {
+  text-align: center;
+  width: 800px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-top: 0px;
 }
 
-.divider-container{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+.divider-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 h1 {
-    text-align: center;
-    font-size: 38px;
+  text-align: center;
+  font-size: 38px;
+}
+
+i {
+  font-size: 20px;
+  color: var(--color8);
+  padding: 4rem;
+}
+
+/* for medium sized screens */
+@media screen and (max-width: 1024px) {
+  i {
+    font-size: 10px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
 }

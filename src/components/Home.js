@@ -10,27 +10,13 @@ function Home() {
 
       <div className='home'>
         <div className='home-text'>
-        
-            Hi! <span> I’m May </span> 
+          <div>
+            Hi! <span> I’m May </span>
             <br />
             Full Stack
-            <br /> Software Engineer
             <br />
-            <a href='https://github.com/maycwu' title='GitHub'>
-              {' '}
-              <i class='bi bi-github'></i>
-            </a>
-            <a href='https://www.linkedin.com/in/maywu95/' title='LinkedIn'>
-              <i class='bi bi-linkedin'></i>
-            </a>
-            <a
-              href='resume/resume.pdf'
-              download='resume.pdf'
-              title='Download Resume'
-            >
-              <i class='bi bi-file-earmark-person'></i>
-            </a>
-       
+            Software Engineer
+          </div>
         </div>
 
         <div className='home-image'>

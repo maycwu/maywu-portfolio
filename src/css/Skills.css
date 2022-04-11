@@ -1,43 +1,58 @@
-.skills-container{
-    text-align: center;
-    background-image: url("/public/img/education-bg.png");
-    background-size: 2000px;
-    letter-spacing: 1px;
-    padding-bottom: 2rem;
+.skills-container {
+  text-align: center;
+  background-image: url('/public/img/education-bg.png');
+  background-size: 2000px;
+  letter-spacing: 1px;
+  padding-bottom: 2rem;
 }
 
-.skills-img-container{
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
+.skills-img-container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.skill-icon{
-    width: 3%;
-    padding-left: 2rem;
+.skill-icon {
+  width: 3%;
+  padding-left: 2rem;
 }
 
-.skills-title{
-    font-size: 40px;
-    margin-top: 0px;
+.skills-title {
+  font-size: 40px;
+  margin-top: 0px;
 }
 
-.skills-subtitle{
-    font-size: 30px;
+.skills-subtitle {
+  font-size: 30px;
 }
 
 .skills-name {
-    display: inline-block;
-    font-size: var(--small-font-size);
-    margin-right: 10px;
-    padding: 0.25rem 0.9rem;
-    background-color: rgb(238, 238, 238);
-    border-radius: 0.25rem;
-    font-size: 1.5rem;
-  }
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-right: 10px;
+  padding: 0.25rem 0.9rem;
+  background-color: rgb(238, 238, 238);
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
+}
 
 .skills-name:hover {
-    background-color: var(--color2);
-    color: var(--white-color);
+  background-color: var(--color2);
+  color: var(--white-color);
+}
+
+@media screen and (max-width: 1024px) {
+.skills-container {
+  text-align: center;
+  background-size: 2000px;
+  background-position:50% 11.5%;
+}
+
+  .skills-title {
+    font-size: 30px;
   }
+  .skills-subtitle {
+    font-size: 20px;
+  }
+}

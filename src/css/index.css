@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Serif+Display&family=Merriweather&display=swap');:root{
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Serif+Display&family=Merriweather&family=Rozha+One&family=Space+Mono&display=swap');
+
+:root{
   --background-color: white;
   --color1: #f0f7ee;
   --color2: #bacde8;
-  --color3: #7ddcd7;
+  --color3: #a1bec7;
   --color4: #91a8a4; 
   --color5: #776871;
   --color6: #d5d5d5;

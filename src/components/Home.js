@@ -10,10 +10,10 @@ function Home() {
 
       <div className='home'>
         <div className='home-text'>
-          <h4>
-            Hi! <span> I’m May </span> &
+        
+            Hi! <span> I’m May </span> 
             <br />
-            I'm a Full Stack
+            Full Stack
             <br /> Software Engineer
             <br />
             <a href='https://github.com/maycwu' title='GitHub'>
@@ -30,7 +30,7 @@ function Home() {
             >
               <i class='bi bi-file-earmark-person'></i>
             </a>
-          </h4>
+       
         </div>
 
         <div className='home-image'>

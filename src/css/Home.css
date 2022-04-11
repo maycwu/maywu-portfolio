@@ -1,48 +1,48 @@
-.home-container{
-    background-color: var(--color2);
-    background-image: url('/public/img/icons.png');
-    color: white;
-    margin-top: 5%;
-    height: 90vh;
+.home-container {
+  background-color: var(--color2);
+  background-image: url('/public/img/icons.png');
+  color: white;
+  height: 100vh;
 }
 
-.home{
+.home {
   display: flex;
-  padding: 7rem;
+  padding: 13rem;
   justify-content: space-evenly;
-  background-image: url('/public/img/shapes4.png');
-  background-position: 22% 30%;
-  background-size: contain;
-  background-size: 700px;
-  background-repeat: no-repeat;
 }
 
 .home-text {
-  margin-top: 1rem;
+  margin: auto;
+  margin-top: 2rem;
   text-align: left;
-  font-size: 3rem;
-  letter-spacing: 1px;
-  padding: 5rem;
+  font-size: 3.5rem;
+  /* font-family: 'Rozha One', serif; */
+  letter-spacing: 3px;
+  padding: 4rem;
+  background-color: var(--color2);
+  /* border: #878787 8px dotted; */
+  /* border-radius: 30px; */
+  border-radius: 50% 20% / 10% 40%;
 }
 
 .accessory1 {
   position: absolute;
-  top: 800px;
+  top: 850px;
   right: 1600px;
   z-index: 1;
 }
 
 .accessory2 {
   position: absolute;
-  top: 850px;
+  top: 870px;
   right: 100px;
   z-index: 1;
 }
 
 .accessory3 {
   position: absolute;
-  top: 640px;
-  right: 510px;
+  top: 580px;
+  right: 610px;
   z-index: 1;
 }
 
@@ -50,9 +50,9 @@ i {
   font-size: 26px;
   color: var(--color1);
   padding: 4rem;
-  text-shadow: 2px 2px rgb(203, 203, 203);
+  /* text-shadow: 2px 2px rgb(203, 203, 203); */
 }
 
 span {
-    color: var(--color9);
+  color: var(--color9);
 }

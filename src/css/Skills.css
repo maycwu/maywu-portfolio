@@ -1,7 +1,7 @@
 .skills-container{
     text-align: center;
     background-image: url("/public/img/education-bg.png");
-    background-size: 2500px 1200px;
+    background-size: 2000px;
     letter-spacing: 1px;
     padding-bottom: 2rem;
 }
@@ -14,13 +14,12 @@
 }
 
 .skill-icon{
-    width: 4%;
-    height: 30%;
+    width: 3%;
     padding-left: 2rem;
 }
 
 .skills-title{
-    font-size: 55px;
+    font-size: 40px;
 }
 
 .skills-subtitle{

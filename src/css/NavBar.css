@@ -4,12 +4,12 @@
   background-color: var(--color2);
   color: white;
   font-family: 'DM Serif Display';
-  font-size: 34px;
+  font-size: 25px;
   position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030;
+    z-index: 1;
 }
 
 .navbar-inner-container {
@@ -20,7 +20,7 @@
 .navbar-sitename{
     display: flex;
     align-items: flex-end;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Cedarville Cursive', cursive;
     font-weight: 800;
 }

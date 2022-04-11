@@ -3,6 +3,7 @@
     background-image: url('/public/img/icons.png');
     color: white;
     margin-top: 5%;
+    height: 90vh;
 }
 
 .home{
@@ -10,31 +11,30 @@
   padding: 7rem;
   justify-content: space-evenly;
   background-image: url('/public/img/shapes4.png');
-  background-position: 26% 10%;
+  background-position: 22% 30%;
   background-size: contain;
-  background-size: 860px;
+  background-size: 700px;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 
 .home-text {
   margin-top: 1rem;
   text-align: left;
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 1px;
   padding: 5rem;
 }
 
 .accessory1 {
   position: absolute;
-  top: 1250px;
-  right: 1800px;
+  top: 800px;
+  right: 1600px;
   z-index: 1;
 }
 
 .accessory2 {
   position: absolute;
-  top: 1450px;
+  top: 850px;
   right: 100px;
   z-index: 1;
 }

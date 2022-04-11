@@ -1,15 +1,16 @@
-.projects-container{
-    background-image: url('/public/img/bg-dots.png');
-   text-align: center;
+.projects-container {
+  background-image: url('/public/img/bg-dots.png');
+  background-size: 2000px;
+  text-align: center;
 }
 
-.project-title{
-    margin-top: 0;
-    padding-top: 2rem;
-    font-size: 55px;
+.project-title {
+  margin-top: 0;
+  padding-top: 2rem;
+  font-size: 40px;
 }
 
-.projects{
+.projects {
   padding: 1rem;
   letter-spacing: 1px;
   display: flex;
@@ -18,13 +19,13 @@
 }
 
 .project-img {
-  width: 80%;
+  width: 60%;
   padding: 3%;
 }
 
-.project{
-    display: flex;
-    justify-content: center;
+.project {
+  display: flex;
+  justify-content: center;
 }
 
 .project-img-container {
@@ -56,5 +57,5 @@
 
 .project-subtitle {
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
 }

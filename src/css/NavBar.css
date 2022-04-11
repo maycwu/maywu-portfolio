@@ -42,12 +42,10 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
+
 li{
   letter-spacing: 2px;
   padding: 0.5rem;
   
 }
 
-li:hover{
-  color: var(--color8)
-}

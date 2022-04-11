@@ -3,7 +3,7 @@ import '../css/About.css';
 
 function About() {
   return (
-    <section className='about-container'>
+    <section className='about-container' id='about'>
       <div className='divider-container'>
         <img src='/img/dots-cyan.png' alt='dots' />
       </div>

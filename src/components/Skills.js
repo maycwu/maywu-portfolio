@@ -51,6 +51,11 @@ function Skills() {
             alt='Photoshop'
             className='skill-icon'
           />
+          <img
+            src='/img/icons/bootstrap.png'
+            alt='Photoshop'
+            className='skill-icon'
+          />
         </div>
       </div>
     </section>

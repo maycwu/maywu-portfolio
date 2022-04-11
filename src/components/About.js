@@ -24,13 +24,6 @@ function About() {
           <a href='https://www.linkedin.com/in/maywu95/' title='LinkedIn'>
             <i class='bi bi-linkedin'></i>
           </a>
-          <a
-            href='resume/resume.pdf'
-            download='resume.pdf'
-            title='Download Resume'
-          >
-            <i class='bi bi-file-earmark-person'></i>
-          </a>
         </p>
       </div>
       <div className='divider-container'>

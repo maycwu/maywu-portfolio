@@ -6,7 +6,7 @@ function NavBar() {
     <nav className='navbar-container'>
       <div className='navbar-inner-container'>
         <div className='navbar-sitename'>
-          May W.
+          May W. Portfolio
         </div>
 
         <ul className='navbar-ul'>

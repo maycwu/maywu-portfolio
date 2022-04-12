@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Serif+Display&family=Merriweather&family=Rozha+One&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Serif+Display&family=Fira+Code:wght@500&family=Libre+Barcode+128+Text&family=Merriweather&family=Press+Start+2P&family=Rozha+One&family=Rubik&family=Source+Code+Pro:wght@600&family=Space+Mono&display=swap');
 
 :root{
   --background-color: white;
@@ -9,9 +9,9 @@
   --color5: #776871;
   --color6: #d5d5d5;
   --color7: #acadbc;
-  --color8: #000500;
+  --color8: #000;
   --color9: #1a8cbe;
-  --color10: #44dab2;
+  --color10: #15bc8f;
 }
 
 html,body
@@ -21,7 +21,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    font-family: 'DM Serif Display';
+    font-family: 'Fira Code', monospace;
     background-color: var(--background-color);
 }
 

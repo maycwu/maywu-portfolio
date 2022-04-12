@@ -7,13 +7,18 @@ function Home() {
   return (
     <section className='home-container' id='home'>
     <Particle/>
-     
-
+      <div className="home-sub-container">
       <div className='home'>
-            <h1>Hi</h1>
+      <div className='home-text'>
+            Hi there! <span> Im May </span>
+            <br />
+            Full Stack
+            <br />
+            Software Engineer
+          </div>
       </div> 
 
- 
+      </div>
     </section>
   );
 }

@@ -1,10 +1,9 @@
 .navbar-container {
-  padding: 8px 115px;
+  padding: 8px 25px 10px 30px;
   transition: 0.3s ease;
   background-color: var(--color8);
   color: white;
-  font-family: 'DM Serif Display';
-  font-size: 25px;
+  font-size: 22px;
   position: fixed;
     top: 0;
     right: 0;
@@ -20,9 +19,10 @@
 .navbar-sitename{
     display: flex;
     align-items: flex-end;
-    font-size: 50px;
-    font-family: 'Cedarville Cursive', cursive;
+    font-size: 40px;
+    /* font-family: 'Cedarville Cursive', cursive; */
     font-weight: 800;
+    letter-spacing: 4px;
 }
 
 .navbar-ul {

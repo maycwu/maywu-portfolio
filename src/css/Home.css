@@ -1,27 +1,19 @@
 .home-container {
   background-color: var(--color2);
-  background-image: url('/public/img/icons.png');
+  /* background-image: url('/public/img/icons.png'); */
   color: white;
-  margin-top: -70px;
-  height: 110vh;
+  height: 100vh;
+
+}
+.particle-container{
+  z-index: 1;
 }
 
-.home {
-  display: flex;
-  padding: 8rem;
-  justify-content: space-between;
-}
+.home{
+  color: black;
+  position: absolute;
+  
 
-.home-text {
-  margin: auto;
-  /* text-align: left; */
-  font-size: 3rem;
-  font-family: 'Rozha One', serif;
-  padding: 3.5rem;
-  background-color: var(--color3);
-  /* border: #878787 8px dotted; */
-  /* border-radius: 30px; */
-  border-radius: 50% 20% / 10% 40%;
 }
 
 .home-image {
@@ -65,9 +57,9 @@ span {
     padding: 4.5rem;
   }
 
-  .home-container{
+  /* .home-container{
     height: 70vh;
-  }
+  } */
   .computer-img {
     width: 50%;
   }

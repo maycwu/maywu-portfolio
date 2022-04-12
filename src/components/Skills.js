@@ -28,7 +28,7 @@ function Skills() {
             className='skill-icon'
           />
         </div>
-        <h2 className='skills-subtitle'>Tools</h2>
+        {/* <h2 className='skills-subtitle'>Tools</h2> */}
         <div className='skills-img-container'>
           <img src='/img/icons/git.png' alt='Git' className='skill-icon' />
           <img
@@ -43,7 +43,7 @@ function Skills() {
           />
         </div>
 
-        <h2 className='skills-subtitle'>UI Design</h2>
+        {/* <h2 className='skills-subtitle'>UI Design</h2> */}
         <div className='skills-img-container'>
           <img src='/img/icons/figma.png' alt='Figma' className='skill-icon' />
           <img

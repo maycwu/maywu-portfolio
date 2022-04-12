@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Projects.css';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 function Projects() {
   return (

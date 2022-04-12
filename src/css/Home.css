@@ -2,7 +2,8 @@
   background-color: var(--color2);
   background-image: url('/public/img/icons.png');
   color: white;
-  margin-top: -100px;
+  margin-top: -70px;
+  height: 110vh;
 }
 
 .home {
@@ -30,14 +31,15 @@
 
 .accessory1 {
   position: relative;
-  top: 870px;
-  right: -5%;
+  top: 970px;
+  right: -10%;
   z-index: 1;
+  transform: rotate(90deg);
 }
 
 .accessory2 {
   position: relative;
-  top: 850px;
+  top: 960px;
   left: 75%;
   z-index: 1;
 }
@@ -45,7 +47,7 @@
 .accessory3 {
   position: relative;
   top: 580px;
-  right: -1050px;
+  right: -1150px;
   z-index: 1;
 }
 
@@ -62,6 +64,10 @@ span {
   .home {
     padding: 4.5rem;
   }
+
+  .home-container{
+    height: 70vh;
+  }
   .computer-img {
     width: 50%;
   }
@@ -76,11 +82,11 @@ span {
   }
 
   .accessory1 {
-    top: 500px;
+    top: 580px;
   }
 
   .accessory2 {
-    top: 480px;
+    top: 580px;
     left: 70%;
   }
 

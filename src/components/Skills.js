@@ -53,7 +53,7 @@ function Skills() {
           />
           <img
             src='/img/icons/bootstrap.png'
-            alt='Photoshop'
+            alt='Bootstrap'
             className='skill-icon'
           />
         </div>

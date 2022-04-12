@@ -1,11 +1,22 @@
 import React from 'react';
 import '../css/Projects.css';
+import { motion } from 'framer-motion';
 
 function Projects() {
   return (
     <section className='projects-container' id='projects'>
       <img src='/img/dots-cyan.png' alt='dots' />
       <h1 className='project-title'>Projects</h1>
+      <motion.div
+        initial='hidden'
+        whileInView='visible'
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+        variants={{
+          visible: { opacity: 1, scale: 1 },
+          hidden: { opacity: 0, scale: 0 },
+        }}
+      >
       <div className='projects'>
         <div className='project-img-container'>
           <div className='project'>
@@ -64,6 +75,7 @@ function Projects() {
           </div>
         </div>
       </div>
+          </motion.div>
     </section>
   );
 }

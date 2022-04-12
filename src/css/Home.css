@@ -14,7 +14,7 @@
   background-color: rgba(56, 91, 71, 0.25);
   top: -615px;
   z-index: 1;
- border-radius: 15px;
+  border-radius: 15px;
   width: 30%;
 }
 
@@ -29,6 +29,34 @@
   padding: 3rem;
   color: rgb(225, 224, 224);
   letter-spacing: 1px;
+}
+
+.learn-more-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.learn-more {
+  position: relative;
+  background-color: rgba(56, 91, 71, 0.7);
+  top: -590px;
+  z-index: 1;
+  border-radius: 10px;
+  width: 10%;
+}
+
+.learn-more-text {
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  /* font-family: 'Rubik', sans-serif; */
+  /* font-family: 'DM Serif Display'; */
+  /* font-family: sans-serif; */
+  padding: 0.5rem;
+  color: rgb(225, 224, 224);
+  letter-spacing: 1.5px;
 }
 
 .home-image {

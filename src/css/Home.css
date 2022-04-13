@@ -58,28 +58,6 @@
   justify-content: flex-end;
 }
 
-.accessory1 {
-  position: relative;
-  top: -850px;
-  right: -10%;
-  z-index: 1;
-  transform: rotate(90deg);
-}
-
-.accessory2 {
-  position: relative;
-  top: 960px;
-  left: 75%;
-  z-index: 1;
-}
-
-.accessory3 {
-  position: relative;
-  top: 580px;
-  right: -1150px;
-  z-index: 1;
-}
-
 span {
   color: var(--color10);
 }
@@ -117,6 +95,13 @@ span {
   .home {
     border-radius: 15px;
     width: 60%;
-    top: -580px;
+    top: -600px;
+  }
+  .learn-more {
+    top: -585px;
+    width: 50%;
+  }
+  .learn-more-text {
+    font-size: 12px;
   }
 }

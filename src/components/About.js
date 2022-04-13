@@ -39,10 +39,10 @@ function About() {
             <br />
             <br />
             <a href='https://github.com/maycwu' title='GitHub'>
-              <i class='bi bi-github'></i>
+              <i className='bi bi-github'></i>
             </a>
             <a href='https://www.linkedin.com/in/maywu95/' title='LinkedIn'>
-              <i class='bi bi-linkedin'></i>
+              <i className='bi bi-linkedin'></i>
             </a>
           </p>
         </div>

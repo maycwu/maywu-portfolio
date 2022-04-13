@@ -64,4 +64,8 @@ i {
   .about-text {
     font-size: 0.8rem;
   }
+  .profile-img{
+   width:40%;
+  }
+  
 }

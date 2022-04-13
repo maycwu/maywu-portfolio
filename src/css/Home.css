@@ -92,6 +92,9 @@ span {
 
 /* for mobile screens */
 @media screen and (max-width: 414px) {
+  .home-container {
+    height: 101vh;
+  }
   .home {
     border-radius: 15px;
     width: 60%;

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 function Skills() {
   return (
     <section className='skills-container'>
-      <h1 className='skills-title'>Technologies & Skills</h1>
+      <h1 className='skills-title'>TECHNOLOGIES & SKILLS</h1>
       <motion.div
         initial='hidden'
         whileInView='visible'

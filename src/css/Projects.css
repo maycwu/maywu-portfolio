@@ -26,6 +26,9 @@
 .project {
   display: flex;
   justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 .project-img-container {
@@ -58,6 +61,15 @@
 .project-subtitle {
   text-align: center;
   font-size: 22px;
+}
+
+.project-text-container{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+width: 60%;
 }
 
 @media screen and (max-width: 1024px) {

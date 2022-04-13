@@ -6,7 +6,7 @@ function Projects() {
   return (
     <section className='projects-container' id='projects'>
       {/* <img src='/img/dots-cyan.png' alt='dots' /> */}
-      <h1 className='project-title'>Projects</h1>
+      <h1 className='project-title'>PROJECTS</h1>
       {/* <motion.div
         initial='hidden'
         whileInView='visible'
@@ -27,6 +27,9 @@ function Projects() {
             />
           </div>
           <h2 className='project-subtitle'>git status</h2>
+          <div className='project-text-container'>
+          <p><span>Tech stack:</span> JavaScript, HTML, CSS, React, Chart.js, GitHub API, Firebase, Bootstrap</p>
+          </div>
           <div className='project-link'>
             <a
               href='http://my-git-status.herokuapp.com/'
@@ -46,6 +49,9 @@ function Projects() {
             />
           </div>
           <h2 className='project-subtitle'>reverie resort</h2>
+          <div className='project-text-container'>
+          <p><span>Tech stack:</span> JavaScript, HTML, CSS, React, Redux, Express.js, Sequelize, PostgreSQL</p>
+          </div>
           <div className='project-link'>
             <a
               href='https://reverie-resort.herokuapp.com/'
@@ -65,6 +71,9 @@ function Projects() {
             />
           </div>
           <h2 className='project-subtitle'>memory song game</h2>
+          <div className='project-text-container'>
+          <p><span>Tech stack:</span> JavaScript, HTML, CSS, React, Spotify API authentication & data fetch</p>
+          </div>
           <div className='project-link'>
             <a
               href='https://github.com/maycwu/memory-song-game/'

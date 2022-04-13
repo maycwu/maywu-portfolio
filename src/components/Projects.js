@@ -5,7 +5,7 @@ import '../css/Projects.css';
 function Projects() {
   return (
     <section className='projects-container' id='projects'>
-      <img src='/img/dots-cyan.png' alt='dots' />
+      {/* <img src='/img/dots-cyan.png' alt='dots' /> */}
       <h1 className='project-title'>Projects</h1>
       {/* <motion.div
         initial='hidden'

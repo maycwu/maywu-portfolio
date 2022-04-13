@@ -1,9 +1,9 @@
 .navbar-container {
-  padding: 8px 25px 10px 30px;
+  padding: 0px 25px 0px 30px;
   transition: 0.3s ease;
   background-color: var(--color8);
   color: white;
-  font-size: 22px;
+  font-size: 18px;
   position: fixed;
     top: 0;
     right: 0;
@@ -19,10 +19,11 @@
 .navbar-sitename{
     display: flex;
     align-items: flex-end;
-    font-size: 40px;
-    /* font-family: 'Cedarville Cursive', cursive; */
+    font-size: 30px;
     font-weight: 800;
     letter-spacing: 4px;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    padding: 0.6rem;
 }
 
 .navbar-ul {
@@ -44,8 +45,8 @@ ul {
 }
 
 li{
-  letter-spacing: 2px;
-  padding: 0.5rem;
+  letter-spacing: 3px;
+  padding: 0.6rem;
   
 }
 
@@ -62,12 +63,12 @@ li{
 /* for medium sized screens */
 @media screen and (max-width: 1024px) {
   .navbar-sitename {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   .navbar-container{
-    font-size: 20px;
-    padding: 5px 70px;
+    font-size: 18px;
+
   }
 
 }

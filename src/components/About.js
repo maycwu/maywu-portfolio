@@ -1,14 +1,15 @@
 import React from 'react';
 import '../css/About.css';
+import '../css/index.css';
 import { motion } from 'framer-motion';
 
 function About() {
   return (
     <section className='about-container' id='about'>
       <div className='divider-container'>
-        <img src='/img/dots-cyan.png' alt='dots' />
+        {/* <img src='/img/dots-cyan.png' alt='dots' /> */}
       </div>
-      <h1>About Me </h1>
+      <h1 className='title-style'>About Me </h1>
       <motion.div
         initial='hidden'
         whileInView='visible'
@@ -39,7 +40,7 @@ function About() {
         </div>
       </motion.div>
       <div className='divider-container'>
-        <img src='/img/dots-cyan.png' alt='dots' />
+        {/* <img src='/img/dots-cyan.png' alt='dots' /> */}
       </div>
     </section>
   );

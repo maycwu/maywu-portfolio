@@ -33,7 +33,7 @@ export default function Particle() {
             color: "#ffffff",
             distance: 150,
             enable: true,
-            opacity: 0.4,
+            opacity: 0.25,
             width: 1
           },
           collisions: {
@@ -64,7 +64,7 @@ export default function Particle() {
             value: 80
           },
           opacity: {
-            value: 0.2
+            value: 0.1
           },
           shape: {
             type: "circle"
@@ -74,7 +74,29 @@ export default function Particle() {
             value: 9
           }
         },
-        detectRetina: true
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: {
+              enable: true,
+              mode: "grab"
+            },
+            onclick: {
+              enable: true,
+              mode: "push"
+            },
+            resize: true
+          }
+        },
+        detectRetina: true,
+        // bubble: {
+        //   distance: 400,
+        //   size: 40,
+        //   duration: 2,
+        //   opacity: 8,
+        //   speed: 3
+        // }
+        
       }}
   />
   );

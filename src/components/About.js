@@ -22,12 +22,13 @@ function About() {
       >
         <div className='about'>
           <p className='about-text'>
+          <img src='/img/profile.jpeg' alt='profile' className='profile-img' />
             Welcome to my site! I am a Finance professional turned Software
             Engineer. While working in Finance, I found a passion in programming
             & problem solving which led me to enroll in the Grace Hopper Program
             at Fullstack Academy to become a Software Engineer. I am excited to
             use my creative web development and skills to build
-            applications with great user experiences.
+            applications with great user experiences.  
             <br/>
             <br/>
             My interests are front-end web design & development but I'm also interested

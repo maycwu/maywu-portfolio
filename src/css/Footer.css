@@ -12,4 +12,10 @@
       font-size: 18px;
     }
   }
-  
+
+/* for mobile screens */
+@media screen and (max-width: 414px) {
+  .footer-container {
+    font-size: 14px;
+  }
+}

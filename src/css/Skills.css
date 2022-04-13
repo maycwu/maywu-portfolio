@@ -4,7 +4,6 @@
   background-size: 2000px;
   background-position: 0% 10%;
   letter-spacing: 1px;
-  padding-bottom: 2rem;
 }
 
 .skills-img-container {
@@ -12,11 +11,13 @@
   align-content: center;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 1rem;
 }
 
 .skill-icon {
-  width: 3%;
+  width: 4%;
   padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .skills-title {
@@ -49,11 +50,28 @@
   background-size: 2000px;
   background-position:50% 11.5%;
 }
-
   .skills-title {
     font-size: 30px;
   }
   .skills-subtitle {
     font-size: 20px;
   }
+  .skill-icon {
+    width: 5%;
+  }
 }
+
+@media screen and (max-width: 414px) {
+  .skills-title {
+    font-size: 22px;
+  }
+  .skills-img-container {
+    padding: 0.7rem;
+  }
+  .skill-icon {
+    width: 7%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+

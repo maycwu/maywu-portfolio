@@ -12,11 +12,17 @@
 .about-text {
   text-align: center;
   width: 1100px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   margin-top: 0px;
   border: rgb(172, 172, 172) 1px dotted;
   padding: 1.5rem;
+}
+.profile-img{
+  float: right; 
+  margin: 20px;
+  border: rgb(255, 255, 255) 8px solid;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.05);
 }
 
 .divider-container {
@@ -42,12 +48,20 @@ i {
   i {
     font-size: 10px;
   }
-
   h1{
     font-size: 30px;
   }
-
   .about-text {
     font-size: 1rem;
+  }
+}
+
+/* for mobile screens */
+@media screen and (max-width: 414px) {
+  h1{
+    font-size: 22px;
+  }
+  .about-text {
+    font-size: 0.8rem;
   }
 }

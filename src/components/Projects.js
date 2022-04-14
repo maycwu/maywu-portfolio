@@ -70,7 +70,7 @@ function Projects() {
               className='project-img'
             />
           </div>
-          <h2 className='project-subtitle'>memory song game</h2>
+          <h2 className='project-subtitle'>spotify memory song game</h2>
           <div className='project-text-container'>
           <p><span>Tech stack:</span> JavaScript, HTML, CSS, React, Spotify API authentication & data fetch</p>
           </div>

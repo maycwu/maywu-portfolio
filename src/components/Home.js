@@ -10,11 +10,13 @@ function Home() {
         <div className='home-sub-container'>
           <div className='home'>
             <div className='home-text'>
-              Hi there! <span> Im May </span>
+              {/* Hi there! <span> Im May </span>
               <br />
               Full Stack
               <br />
-              Software Engineer
+              Software Engineer */}
+              <h2>MAY C. WU</h2>
+              <p>SOFTWARE ENGINEER</p>
             </div>
           </div>
         </div>
@@ -31,7 +33,7 @@ function Home() {
         <div className='learn-more-container'>
           <div className='learn-more'>
             <div className='learn-more-text'>
-               Scroll down to learn more!
+              SCROLL DOWN
             </div>
           </div>
         </div>

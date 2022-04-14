@@ -55,7 +55,11 @@
 }
 .project-link-name {
   color: var(--color8);
-  font-size: 30px;
+  font-size: 26px;
+}
+
+.project-link-name:hover {
+  color: var(--color10);
 }
 
 .project-subtitle {
@@ -92,5 +96,8 @@ p {
   }
   p {
     font-size: 10px;
+  }
+  .project-link-name {
+    font-size: 12px;
   }
 }

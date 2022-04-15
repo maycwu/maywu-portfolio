@@ -152,3 +152,17 @@ span {
     font-size: 8px;
   }
 }
+
+/* for laptop screens */
+@media screen and (min-height: 300px) {
+  .home {
+    border-radius: 15px;
+    width: 50%;
+    top: -400px;
+  }
+  .learn-more {
+    top: -380px;
+    width: 25%;
+  }
+ 
+}

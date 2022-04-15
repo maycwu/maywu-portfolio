@@ -24,7 +24,7 @@ function Home() {
         initial='visible'
         whileInView='hidden'
         viewport={{ once: true }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.9 }}
         variants={{
           visible: { opacity: 1, scale: 1 },
           hidden: { opacity: 0, scale: 0 },

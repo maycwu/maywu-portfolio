@@ -24,11 +24,11 @@ function About() {
           <p className='about-text'>
           <img src='/img/profile.jpeg' alt='profile' className='profile-img' />
             Welcome to my site! I am a Finance professional turned Software
-            Engineer. While working in Finance, I found a passion in programming
-            & problem solving which led me to enroll in the Grace Hopper Program
-            at Fullstack Academy to become a Software Engineer. I am excited to
+            Engineer. While working in Finance, I found a <span>passion in programming </span> 
+             and problem solving which led me to enroll in the Grace Hopper Program
+            at Fullstack Academy to become a <span>Software Engineer.</span> I am excited to
             use my creative web development and skills to build
-            applications with great user experiences.  
+            applications with great user experiences.
             <br/>
             <br/>
             My interests are front-end web design & development but I'm also interested
@@ -38,12 +38,14 @@ function About() {
             During my free time, I like to hike, exercise, draw and code cool projects! 
             <br />
             <br />
+            <div className="social-icons">
             <a href='https://github.com/maycwu' title='GitHub'>
               <i className='bi bi-github'></i>
             </a>
             <a href='https://www.linkedin.com/in/maywu95/' title='LinkedIn'>
               <i className='bi bi-linkedin'></i>
             </a>
+            </div>
           </p>
         </div>
       </motion.div>

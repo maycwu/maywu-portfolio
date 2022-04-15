@@ -1,5 +1,5 @@
 .navbar-container {
-  padding: 0px 25px 0px 30px;
+  padding: 0px 35px 0px 20px;
   transition: 0.3s ease;
   background-color: var(--color8);
   color: white;
@@ -45,8 +45,9 @@ ul {
 }
 
 li{
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   padding: 0.6rem;
+  font-weight: 500;
   
 }
 

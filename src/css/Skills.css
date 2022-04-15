@@ -16,8 +16,9 @@
 
 .skill-icon {
   width: 4%;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
+  padding: 0.5rem;
 }
 
 .skills-title {

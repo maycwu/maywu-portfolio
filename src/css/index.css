@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Libre+Barcode+128+Text&family=Rubik&family=Source+Code+Pro:wght@600&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Text&family=Rubik&family=Source+Code+Pro:wght@600&family=Space+Mono&family=Ubuntu:wght@400;500&display=swap');
 :root{
   --background-color: rgb(246, 246, 246);
   --color1: #f0f7ee;
@@ -10,7 +10,7 @@
   --color7: #acadbc;
   --color8: #000;
   --color9: #1a8cbe;
-  --color10: #15bc8f;
+  --color10: #44b295;
 }
 
 html,body
@@ -20,7 +20,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    font-family: 'Fira Code', monospace;
+    font-family: 'Ubuntu', sans-serif;
     background-color: var(--background-color);
     scroll-behavior: smooth;
 }
@@ -36,6 +36,29 @@ a {
 /* } */
 
 h1 {
-  text-decoration: var(--color10) wavy underline;
+  text-decoration: var(--color10);
   /* text-decoration: underline; */
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+h1:before,
+h1:after {
+  background-color: var(--color10);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 15%;
+}
+
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
 }

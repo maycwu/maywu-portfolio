@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/About.css';
 import '../css/index.css';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 function About() {
   return (
@@ -10,7 +10,7 @@ function About() {
         {/* <img src='/img/dots-cyan.png' alt='dots' /> */}
       </div>
       <h1 className='title-style'>ABOUT ME </h1>
-      <motion.div
+      {/* <motion.div
         initial='hidden'
         whileInView='visible'
         viewport={{ once: true }}
@@ -19,7 +19,7 @@ function About() {
           visible: { opacity: 1, scale: 1 },
           hidden: { opacity: 0, scale: 0 },
         }}
-      >
+      > */}
         <div className='about'>
           <p className='about-text'>
           <img src='/img/profile.jpeg' alt='profile' className='profile-img' />
@@ -48,7 +48,7 @@ function About() {
             </div>
           </p>
         </div>
-      </motion.div>
+      {/* </motion.div> */}
       <div className='divider-container'>
         {/* <img src='/img/dots-cyan.png' alt='dots' /> */}
       </div>

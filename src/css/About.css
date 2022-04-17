@@ -24,6 +24,7 @@
   text-align: center;
 }
 .profile-img{
+  width: 20%;
   float: right; 
   margin: 20px;
   border: rgb(255, 255, 255) 8px solid;

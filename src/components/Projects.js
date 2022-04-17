@@ -35,7 +35,10 @@ function Projects() {
               href='http://my-git-status.herokuapp.com/'
               className='project-link-name'
             >
-              View details
+              git status is a developer-focused, visualization-driven productivity app that provides personalized insights on GitHub usage and a dashboard for setting and tracking goals.
+              <br/>
+              <br/>
+              Click to View App
             </a>
           </div>
         </div>
@@ -57,7 +60,10 @@ function Projects() {
               href='https://reverie-resort.herokuapp.com/'
               className='project-link-name'
             >
-              View details
+              An e-commerce site where users can book rooms based on unique themes. 
+              <br/>
+              <br/>
+              Click to View App
             </a>
           </div>
         </div>

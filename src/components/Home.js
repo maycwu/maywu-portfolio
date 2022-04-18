@@ -15,8 +15,9 @@ function Home() {
               Full Stack
               <br />
               Software Engineer */}
-              <h2>MAY C. WU</h2>
-              <p>SOFTWARE ENGINEER</p>
+              <p><span>HEY THERE,</span></p>
+              <h2>I'M MAY</h2>
+              <p> SOFTWARE ENGINEER | WEB DEVELOPER |&#128205; based in NYC</p>
             </div>
           </div>
         </div>
@@ -33,7 +34,7 @@ function Home() {
         <div className='learn-more-container'>
           <div className='learn-more'>
             <div className='learn-more-text'>
-              SCROLL DOWN
+              EXPLORE NOW
             </div>
           </div>
         </div>

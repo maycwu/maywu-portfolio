@@ -22,7 +22,7 @@ function About() {
       > */}
         <div className='about'>
           <p className='about-text'>
-          <img src='/img/profile.jpeg' alt='profile' className='profile-img' />
+          <img src='/img/profile-circle.png' alt='profile' className='profile-img' />
             I am a Finance professional turned Software
             Engineer. While working in Finance, I found a <span>passion in programming </span> 
             and problem solving which led me to enroll in the Grace Hopper Program

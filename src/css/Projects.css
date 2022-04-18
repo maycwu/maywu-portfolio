@@ -62,7 +62,9 @@
 }
 
 .project-link-name:hover {
-  color: var(--color7);
+  color: white;
+  text-shadow: 0 0 10px #FFFFFF, 2px 3px 5px rgba(0,0,0,0.6);
+
 }
 
 .project-subtitle {

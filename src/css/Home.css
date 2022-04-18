@@ -155,8 +155,7 @@ span {
 
 /* for laptop screens */
 
-@media screen and (min-height: 300px) {
-  @media  screen and  (max-width : 1224px) {
+@media screen and (max-height: 300px){
     .home {
       border-radius: 15px;
       width: 50%;
@@ -166,7 +165,5 @@ span {
       top: -380px;
       width: 25%;
     }
-   
-  }
 }
 

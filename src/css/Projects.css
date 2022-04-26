@@ -16,6 +16,7 @@
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .project-img {
@@ -63,7 +64,7 @@
 
 .project-link-name:hover {
   color: white;
-  text-shadow: 0 0 10px #FFFFFF, 2px 3px 5px rgba(0,0,0,0.6);
+  text-shadow: 0 0 10px #FFFFFF, 2px 3px 3px rgba(0, 0, 0, 1);
 
 }
 

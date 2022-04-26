@@ -71,6 +71,31 @@ function Projects() {
         <div className='project-img-container'>
           <div className='project'>
             <img
+              src='/img/movie.png'
+              alt='portfolio'
+              className='project-img'
+            />
+          </div>
+          <h2 className='project-subtitle'>movie deck</h2>
+          <div className='project-text-container'>
+          <p><span>Tech stack:</span> JavaScript, HTML, CSS, React, Hooks, Context API & movie database API</p>
+          </div>
+          <div className='project-link'>
+            <a
+              href='https://moviedeck.herokuapp.com/'
+              className='project-link-name'
+            >
+              App that allow users to search for any movies and add them to their watch/watched list.
+              <br/>
+              <br/>
+              Click to View App
+            </a>
+          </div>
+        </div>
+
+        <div className='project-img-container'>
+          <div className='project'>
+            <img
               src='/img/spotify.png'
               alt='portfolio'
               className='project-img'
@@ -85,10 +110,14 @@ function Projects() {
               href='https://github.com/maycwu/memory-song-game/'
               className='project-link-name'
             >
+              A song memory game where users can click tiles of a 7x7 board game and determine if the songs match.
+              <br/>
+              <br/>
               View details
             </a>
           </div>
         </div>
+
       </div>
           {/* </motion.div> */}
     </section>

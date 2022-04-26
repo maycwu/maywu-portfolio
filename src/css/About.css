@@ -1,5 +1,6 @@
 .about-container {
   padding: 1rem;
+  /* background-color: #161b22; */
 }
 
 .about {
@@ -14,8 +15,11 @@
   font-size: 1rem;
   letter-spacing: 1px;
   margin-top: 0px;
-  border: rgb(208, 208, 208) 1px solid;
+  border: 1px solid #30363d;
+  background-color: #0e1216;
   padding: 2rem;
+  color: rgb(229, 229, 229);
+  border-radius: 15px;
 
 }
 
@@ -50,7 +54,7 @@ h1:hover{
 
 i {
   font-size: 20px;
-  color: var(--color8);
+  color: white;
   padding: 4rem;
 }
 

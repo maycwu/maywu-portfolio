@@ -11,43 +11,44 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 function TimelineComponent() {
   return (
     <div className='timeline-container'>
- <Timeline position="alternate">
+      <h1>EXPERIENCE</h1>
+      <Timeline position='alternate'>
         <TimelineItem>
-          <TimelineOppositeContent color="text.secondary">
+          <TimelineOppositeContent color='text.secondary'>
             2019
           </TimelineOppositeContent>
           <TimelineSeparator>
-          <TimelineDot color="success"/>
+            <TimelineDot color='success' />
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>Data Analyst - Northwell Health</TimelineContent>
         </TimelineItem>
         <TimelineItem>
-          <TimelineOppositeContent color="text.secondary">
+          <TimelineOppositeContent color='text.secondary'>
             2020
           </TimelineOppositeContent>
           <TimelineSeparator>
-          <TimelineDot color="primary" />
+            <TimelineDot color='primary' />
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>Finance Analyst - OMD </TimelineContent>
         </TimelineItem>
         <TimelineItem>
-          <TimelineOppositeContent color="text.secondary">
-           2021
+          <TimelineOppositeContent color='text.secondary'>
+            2021
           </TimelineOppositeContent>
           <TimelineSeparator>
-          <TimelineDot  color="secondary" />
+            <TimelineDot color='secondary' />
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>Sr. Finance Analyst - Saks</TimelineContent>
         </TimelineItem>
         <TimelineItem>
-          <TimelineOppositeContent color="text.secondary">
-           2022
+          <TimelineOppositeContent color='text.secondary'>
+            2022
           </TimelineOppositeContent>
           <TimelineSeparator>
-          <TimelineDot color="success"/>
+            <TimelineDot color='success' />
             {/* <TimelineConnector /> */}
           </TimelineSeparator>
           <TimelineContent>Full Stack Software Engineer</TimelineContent>

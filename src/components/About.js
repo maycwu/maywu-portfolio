@@ -24,7 +24,7 @@ function About() {
           <p className='about-text'>
           <img src='/img/profile-circle.png' alt='profile' className='profile-img' />
             I am a Finance professional turned Software
-            Engineer. While working in Finance, I found a <span><strong>passion in programming</strong></span> 
+            Engineer. While working in Finance, I found a <span><strong>passion in programming </strong></span>  
             and problem solving which led me to enroll in the Grace Hopper Program
             at Fullstack Academy to become a <span><strong>Software Engineer.</strong></span> I am excited to
             use my creative web development and skills to build

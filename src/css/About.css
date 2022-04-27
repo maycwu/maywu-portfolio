@@ -1,6 +1,8 @@
 .about-container {
   padding: 1rem;
-  /* background-color: #161b22; */
+  background-color: #000000;
+  /* filter: blur(8px); */
+  box-shadow: 0px 30px 60px 35px #000000;
 }
 
 .about {

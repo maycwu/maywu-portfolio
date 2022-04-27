@@ -11,6 +11,11 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 function TimelineComponent() {
   return (
     <div className='timeline-container'>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <h1>EXPERIENCE</h1>
       <Timeline position='alternate'>
         <TimelineItem>

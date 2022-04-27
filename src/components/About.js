@@ -9,7 +9,10 @@ function About() {
       <div className='divider-container'>
         {/* <img src='/img/dots-cyan.png' alt='dots' /> */}
       </div>
-      <h1 className='title-style'>ABOUT ME </h1>
+      {/* <h1 className='title-style'>ABOUT ME </h1> */}
+      <br/>
+      <br/>
+      <br/>
       {/* <motion.div
         initial='hidden'
         whileInView='visible'
@@ -36,7 +39,7 @@ function About() {
             for a quick chat! 
             <br/>
             <br/>
-            During my free time, I like to hike, exercise, draw and code cool projects!
+            During my free time, I like to hike, exercise, draw and code fun projects!
             <br />
             <br />
             <div className="social-icons">

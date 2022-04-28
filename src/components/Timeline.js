@@ -13,9 +13,6 @@ function TimelineComponent() {
     <div className='timeline-container'>
       <br/>
       <br/>
-      <br/>
-      <br/>
-      <br/>
       <h1>EXPERIENCE</h1>
       <Timeline position='alternate'>
         <TimelineItem>

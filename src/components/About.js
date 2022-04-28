@@ -56,6 +56,8 @@ function About() {
       <div className='divider-container'>
         {/* <img src='/img/dots-cyan.png' alt='dots' /> */}
       </div>
+      <br/>
+      <br/>
     </section>
   );
 }

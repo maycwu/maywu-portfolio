@@ -6,7 +6,7 @@ function NavBar() {
     <nav className='navbar-container'>
       <div className='navbar-inner-container'>
         <div className='navbar-sitename'>
-        <a href="#home" >{`May C. Wu`} </a> 
+        {/* <a href="#home" >{`May C. Wu`} </a>  */}
         </div>
 
         <ul className='navbar-ul'>
